@@ -8,7 +8,10 @@ import { FooterComponent } from './footer/footer.component';
 import { CardProductComponent } from './card-product/card-product.component';
 import { CartComponent } from './cart/cart.component';
 import { SharedModule } from './shared/shared.module';
-import {LocationStrategy, HashLocationStrategy} from '@angular/common'
+import {LocationStrategy, HashLocationStrategy} from '@angular/common';
+import { MembroComponent } from './membro/membro.component';
+import { CadastrarMembroComponent } from './membro/cadastrar-membro/cadastrar-membro.component';
+import { PrincipalComponent } from './principal/principal.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +19,11 @@ import {LocationStrategy, HashLocationStrategy} from '@angular/common'
     HeaderComponent,
     FooterComponent,
     CardProductComponent,
-    CartComponent
+    CartComponent,
+    MembroComponent,
+    CadastrarMembroComponent,
+    PrincipalComponent
+    
   ],
   imports: [
     BrowserModule,
