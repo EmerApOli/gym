@@ -1,5 +1,11 @@
-<app-header></app-header>
-
-    <app-principal></app-principal>
-
-<app-footer></app-footer>
+<h1>Angular Router App</h1>
+<!-- This nav gives you links to click, which tells the router which route to use (defined in the routes constant in  AppRoutingModule) -->
+<nav>
+  
+  <ul>
+    <li><a routerLink="/membro" routerLinkActive="active">Membros</a></li>
+    <li><a routerLink="/items" routerLinkActive="active">Produtos</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+<!-- The routed views render in the <router-outlet>-->
