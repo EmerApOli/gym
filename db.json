@@ -1,69 +1,90 @@
 {
   "items": [
-      {
-          "product": {
-              "id": 2321312,
-              "name": "Smartphone Apple iPhone 7 128GB",
-              "images": [
-                  
-              ],
-              "price": {
-                  "value": 3509.10,
-                  "installments": 10,
-                  "installmentValue": 389.90
-              }
-          }
-      },
-      {
-          "product": {
-              "id": 9971,
-              "name": "Smart TV Samsung Série 4 UN32J4300AG 32 polegadas LED Plana",
-              "images": [
-                 
-              ],
-              "price": {
-                  "value": 1139.90,
-                  "installments": 10,
-                  "installmentValue": 134.11
-              }
-          }
-      },
-      {
-          "product": {
-              "id": 6717131,
-              "name": "Câmera Digital Canon EOS Rebel T5i 18.0 Megapixels",
-              "images": [
-                  
-              ],
-              "price": {
-                  "value": 1999.20,
-                  "installments": 10,
-                  "installmentValue": 235.20
-              }
-          }
-      },
-      {
-          "product": {
-              "id": 6717131,
-              "name": "Lenovo IdeaPad 310 80UH0004BR Intel Core i7-6500U 2.5 GHz 8192 MB 1024 GB",
-              "images": [
-                  
-              ],
-              "price": {
-                  "value": 2599.00,
-                  "installments": 10,
-                  "installmentValue": 259.90
-              }
-          }
-      }
-  ],
-
-  "membro":[
     {
-     "id":1,
-     "nome":"emerson"
-    
+      "product": {
+        "id": 2321312,
+        "name": "Smartphone Apple iPhone 7 128GB",
+        "images": [],
+        "price": {
+          "value": 3509.1,
+          "installments": 10,
+          "installmentValue": 389.9
+        }
+      }
+    },
+    {
+      "product": {
+        "id": 9971,
+        "name": "Smart TV Samsung Série 4 UN32J4300AG 32 polegadas LED Plana",
+        "images": [],
+        "price": {
+          "value": 1139.9,
+          "installments": 10,
+          "installmentValue": 134.11
+        }
+      }
+    },
+    {
+      "product": {
+        "id": 6717131,
+        "name": "Câmera Digital Canon EOS Rebel T5i 18.0 Megapixels",
+        "images": [],
+        "price": {
+          "value": 1999.2,
+          "installments": 10,
+          "installmentValue": 235.2
+        }
+      }
+    },
+    {
+      "product": {
+        "id": 6717131,
+        "name": "Lenovo IdeaPad 310 80UH0004BR Intel Core i7-6500U 2.5 GHz 8192 MB 1024 GB",
+        "images": [],
+        "price": {
+          "value": 2599,
+          "installments": 10,
+          "installmentValue": 259.9
+        }
+      }
+    }
+  ],
+  "membros": [
+    {
+      "id": 1,
+      "nome": "emerson"
+    },
+    {
+      "id": 2,
+      "nome": "Emanuel"
+    }
+  ],
+  "grupo": [
+    {
+      "id": 2,
+      "nome": "A",
+      "musculo": "peito",
+      "aparelho": "supino",
+      "serie": "4x",
+      "repeticao": "10 a 12"
+    },
+    {
+      "id": 3,
+      "nome": "A",
+      "musculo": "peito",
+      "aparelho": "crucifixo",
+      "serie": "4x",
+      "repeticao": "10 a 12"
+    }
+  ],
+  "agendatreino": [
+    {
+      "id": 1,
+      "instru": " teate",
+      "grupo": "wew"
+    },
+    {
+      "id": 2
     }
   ]
-
 }

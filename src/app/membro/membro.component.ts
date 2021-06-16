@@ -11,16 +11,19 @@ import { MembroService } from './membro.service';
   styleUrls: ['./membro.component.css']
 })
 export class MembroComponent implements OnInit {
-  membros : Membro[]
+  membros :  Membro[]
+  
   constructor(private membrosService: MembroService) { }
 
+
+  
   ngOnInit() {
-    NProgress.start()
-  	this.membrosService.membros()
-      .subscribe(membros => this.membros = membros)
-    NProgress.done()
+   
+    this.membrosService.getmembroList().subscribe(data => {
+      this.membros = data;
+      //this.total = data.totalElements;
+    });
+  }
 
 
   }
-
-}

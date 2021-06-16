@@ -1,7 +1,7 @@
-export interface Membro {
+export class Membro {
   
-	id: string,
-	nome: string,
+	id: Number;
+	nome: String;
 	
 	}
   

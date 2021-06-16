@@ -12,13 +12,19 @@ import { MembroComponent } from './membro/membro.component';
 import { CadastrarMembroComponent } from './membro/cadastrar-membro/cadastrar-membro.component';
 import { PrincipalComponent } from './principal/principal.component'
 import { AppRoutingModule } from './app-routing.module';
+import { AgendartreinoComponent } from './agendartreino/agendartreino.component';
+import { CadAgendatreinoComponent } from './agendartreino/cad-agendatreino/cad-agendatreino.component';
+
 
 
 
 export const appRouters: Routes = [
 
   { path: 'membro', component: MembroComponent },
-  { path: 'items', component: CardProductComponent }
+  { path: 'items', component: CardProductComponent },
+  { path: 'agendartreino', component: AgendartreinoComponent },
+  { path: 'principal', component: PrincipalComponent },
+   {path: 'cadagendatreino', component: CadAgendatreinoComponent }
 
 ];
 export const routes: ModuleWithProviders = RouterModule.forRoot(appRouters);
@@ -29,8 +35,10 @@ export const routes: ModuleWithProviders = RouterModule.forRoot(appRouters);
   declarations: [
     AppComponent,
     MembroComponent,
-     CardProductComponent
-    
+     CardProductComponent,
+     AgendartreinoComponent,
+     PrincipalComponent,
+     CadAgendatreinoComponent
   ],
   imports: [
     BrowserModule,

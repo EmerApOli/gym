@@ -9,9 +9,17 @@ export class MembroService {
 
   constructor(private http: Http){}
 
-  membros(): Observable<Membro[]> {
-    return this.http.get('http://localhost:3000/membro')
-      .map(response => response.json())
+
+  getmembroList(): Observable<any> {
+    return this.http.get('http://localhost:3000/membros')
+    .map(response => response.json())
       .catch(ErrorHandler.handleError)
   }
+  //gettreinoList(): Observable<AgendarTreino> {
+   // return this.http.get('http://localhost:3000/agendatreino')
+   // .map(response => response.json())
+   //   .catch(ErrorHandler.handleError)
+  //}
+  
+
 }
